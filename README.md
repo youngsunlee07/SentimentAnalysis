@@ -23,7 +23,7 @@ pip install numpy pandas nltk scikit-learn
 ```
 
 ## Dataset
-This project uses the SST-2 dataset. You need to download the dataset and place it in the following directory structure:
+This project uses the SST-2 dataset. You need to download the dataset from https://gluebenchmark.com/tasks and place it in the following directory structure:
 
 ```perl
 <project_root>/
