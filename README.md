@@ -34,23 +34,29 @@ This project uses the SST-2 dataset. You need to download the dataset from https
 │       ├── dev.tsv
 │       └── test.tsv
 │
-└── script.py
+└── SentimentAnalysis.ipynb
 ```
 
 ## Usage
 1. Clone the repository:
 ```bash
-Copy code
 git clone https://github.com/yourusername/SentimentAnalysis.git
 cd SentimentAnalysis
 ```
 
 2. Place the SST-2 dataset in the Data/SST-2/ directory as shown above.
 
-3. Run the script:
-```bash
-python script.py
+3. Open the 'SentimentAnalysis.ipynb' file and replace 'file path' with the actual file path where the SST-2 dataset is located. For example: 
+
+```bash 
+file_path_sst = r'path_to_your_data/Data/SST-2'
+full_path = os.path.join(file_path_sst, "train.tsv")
 ```
+
+4. Run the Jupyter Notebook:
+```bash
+jupyter notebook SentimentAnalysis.ipynb
+``` 
 
 ## Contact
 If you have any questions or suggestions about the project, please contact me at youngsun.lee07@gmail.com.
